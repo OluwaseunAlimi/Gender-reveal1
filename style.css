@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: cursive;
+    text-align: center;
+    color: pink;
+    background-image: url(./image/Background\ image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 3rem;
+    color: green;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 50px;
+}
+
+.box {
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    background-color: skyblue;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.box:hover {
+    background-color: lavender;
+    color: pink;
+    transform: scale(1.1);
+}
+
+.box img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.box span {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.reveal {
+    display: none;
+    margin-top: 50px;
+    font-size: 2rem;
+}
+
+.reveal:target {
+    display: block;
+}
+
+#girl-reveal {
+    color: fuchsia;
+}
